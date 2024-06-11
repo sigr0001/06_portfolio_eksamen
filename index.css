@@ -1,0 +1,95 @@
+@media (min-width: 768px) {
+  .portfolio2 {
+    display: none;
+  }
+  .hero1 {
+    display: none;
+  }
+  .forside_container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+  }
+
+  .forside_col1 {
+    grid-column: 1/2;
+    display: flex;
+    align-items: flex-end;
+    text-align: end;
+    padding-right: 10px;
+  }
+  .forside_col2 {
+    grid-column: 3/4;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .hero2 {
+    grid-column: 2/3;
+  }
+
+  .hero2 img {
+    width: 100%;
+    align-items: center;
+  }
+
+  .sille {
+    font-family: "Inter", sans-serif;
+    font-size: 10rem;
+    font-weight: 1000;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+  .portfolio {
+    font-family: "Inter", sans-serif;
+    font-size: 10.2rem;
+    font-weight: 200;
+    color: rgb(129, 129, 129);
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio {
+    display: none;
+  }
+
+  .hero2 {
+    display: none;
+  }
+
+  .hero1 img {
+    width: 100%;
+  }
+  .forside_col1,
+  .forside_col2 {
+    text-align: center;
+    padding: 30px;
+  }
+
+  .sille {
+    font-family: "Inter", sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+  .portfolio2 {
+    font-family: "Inter", sans-serif;
+    font-size: 3rem;
+    font-weight: 200;
+    color: rgb(129, 129, 129);
+    text-decoration: none;
+  }
+}
+
+/*** EFFEKTER ***/
+
+.sille:hover {
+  color: rgb(255, 67, 199);
+}
+.portfolio:hover,
+.portfolio2:hover {
+  color: rgb(255, 67, 199);
+}

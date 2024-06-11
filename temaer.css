@@ -1,0 +1,484 @@
+/****** TEMA temaer.html ******/
+/*** mobil ***/
+@media (max-width: 768px) {
+  .temaer_overskrift h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 4rem;
+    font-weight: 200;
+    color: rgb(120, 120, 120);
+    margin: 0;
+    padding: 20px;
+    border-bottom: 0.8px solid rgb(166, 166, 166);
+  }
+
+  .tema_col {
+    width: 300px;
+    height: 230px;
+    width: 100%;
+    border-bottom: 0.8px solid rgb(166, 166, 166);
+    background-image: url(billeder/gradient5.webp);
+  }
+  .tema_bund_tekst {
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    font-size: 2.5rem;
+    color: rgb(120, 120, 120);
+    line-height: 2.8rem;
+    padding-left: 30px;
+    padding-bottom: 0;
+  }
+}
+
+/*** desktop ***/
+@media (min-width: 768px) {
+  .temaer_overskrift h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 8rem;
+    font-weight: 200;
+    color: rgb(120, 120, 120);
+    text-decoration: none;
+    margin: 0;
+    padding: 30px;
+  }
+
+  .grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0;
+    border-bottom: 0.8px solid rgb(166, 166, 166);
+    border-top: 0.8px solid rgb(166, 166, 166);
+  }
+  .tema_col {
+    border-left: 0.8px solid rgb(166, 166, 166);
+    padding: 20px;
+    background-image: url(billeder/gradient6.webp);
+  }
+  .tema_bund_tekst {
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    font-size: 3.5rem;
+    color: rgb(120, 120, 120);
+    line-height: 2.8rem;
+    padding-left: 30px;
+    padding-bottom: 0;
+  }
+}
+
+.tema_col a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 9rem;
+  font-weight: 900;
+  text-decoration: none;
+  padding-left: 10px;
+}
+.tema_col a:hover {
+  color: rgb(255, 67, 199);
+}
+
+.tema_col p {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-size: 1.2rem;
+  color: rgb(103, 103, 103);
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+/****** TEMA 02, 03, 04, 05 ******/
+/****** DESKTOP ******/
+@media (min-width: 768px) {
+  .midterlinje {
+    border: 0.4px solid rgb(166, 166, 166);
+    margin-top: 50px;
+  }
+  /* containere */
+  .tema2_container,
+  .indhold_container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    width: 100%;
+    gap: 50px;
+    margin-top: 25px;
+  }
+
+  .tema3_container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    width: 100%;
+    gap: 50px;
+    margin-top: 25px;
+  }
+
+  .tema4_container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    width: 100%;
+    gap: 50px;
+    margin-top: 25px;
+  }
+
+  .tema5_container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    width: 100%;
+    gap: 50px;
+    margin-top: 25px;
+  }
+
+  /* collonner */
+
+  .tema2_col1 {
+    grid-column: 2/3;
+  }
+
+  .tema2_col2 {
+    grid-column: 3/4;
+  }
+  .tema3_col1 {
+    grid-column: 2/3;
+  }
+
+  .tema3_col2 {
+    grid-column: 3/4;
+  }
+  .tema4_col1 {
+    grid-column: 2/3;
+  }
+
+  .tema4_col2 {
+    grid-column: 3/4;
+  }
+  .tema5_col1 {
+    grid-column: 2/3;
+  }
+
+  .tema5_col2 {
+    grid-column: 3/4;
+  }
+  .tema2_col2 p,
+  .tema3_col2 p,
+  .tema4_col2 p,
+  .tema5_col2 p {
+    line-height: 2.5rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    color: rgb(130, 130, 130);
+    font-size: 1rem;
+  }
+
+  .indhold_col1 {
+    grid-column: 2/3;
+  }
+  .indhold_col2 {
+    grid-column: 3/4;
+  }
+
+  .indhold_col1 p,
+  .indhold_col2 p {
+    line-height: 2.5rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    color: rgb(130, 130, 130);
+    font-size: 1rem;
+  }
+
+  /* overskrifter desktop */
+
+  .tema_h2_container {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    border-bottom: 0.4px solid rgb(120, 120, 120);
+  }
+  .tema_h2 {
+    grid-column: 2/3;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 7rem;
+    color: rgb(0, 0, 0);
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .tema2_container h3,
+  .tema3_container h3,
+  .tema4_container h3,
+  .tema5_container h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    color: rgb(120, 120, 120);
+    font-size: 1.8rem;
+  }
+
+  .indhold_container h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    color: rgb(120, 120, 120);
+    font-size: 1.8rem;
+  }
+
+  .billeder_overskrift {
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    color: rgb(120, 120, 120);
+    font-size: 2.8rem;
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  .wireframes_layout_container h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: rgb(120, 120, 120);
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  /* billeder desktop */
+
+  .billeder_container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    width: 100%;
+    gap: 30px;
+    margin-top: 60px;
+  }
+
+  .billeder_col1 {
+    grid-column: 2/3;
+  }
+  .billeder_col2 {
+    grid-column: 3/4;
+  }
+
+  .billeder_col1 img,
+  .billeder_col2 img,
+  .wireframes_col img,
+  .layoutdiagram_col img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .prototyper_container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    width: 100%;
+    gap: 60px;
+  }
+
+  .pic1 {
+    grid-column: 2/3;
+    padding: 20px;
+  }
+  .pic2 {
+    grid-column: 3/4;
+    padding: 20px;
+  }
+  .pic3 {
+    grid-column: 4/5;
+    padding: 20px;
+  }
+
+  .pic1 img,
+  .pic2 img,
+  .pic3 img {
+    width: 100%;
+  }
+
+  .billede_tekst_container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+  }
+  .billede_tekst {
+    grid-column: 2/3;
+    line-height: 2.5rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    color: rgb(130, 130, 130);
+    font-size: 1rem;
+  }
+}
+
+/****** TEMA 02, 03, 04, 05 ******/
+/****** MOBIL ******/
+@media (max-width: 768px) {
+  .midterlinje {
+    border: 0.4px solid rgb(136, 136, 136);
+  }
+
+  .indhold_container {
+    margin: 20px;
+  }
+  .tema2_col1,
+  .tema2_col2,
+  .tema3_col1,
+  .tema3_col2,
+  .tema4_col1,
+  .tema4_col2,
+  .tema5_col1,
+  .tema5_col2 {
+    margin: 20px;
+  }
+  .tema2_col2 p,
+  .tema3_col2 p,
+  .tema4_col2 p,
+  .tema5_col2 p {
+    line-height: 2.5rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    color: rgb(130, 130, 130);
+    font-size: 1rem;
+  }
+
+  .indhold_col1 p,
+  .indhold_col2 p {
+    line-height: 2.5rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    color: rgb(130, 130, 130);
+    font-size: 1rem;
+  }
+
+  /* overskrifter mobil */
+  .tema_h2 {
+    grid-column: 2/3;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+  }
+  .tema2_container h2,
+  .tema3_container h2,
+  .tema4_container h2,
+  .tema5_container h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+  }
+
+  .tema2_container h3,
+  .tema3_container h3,
+  .tema4_container h3,
+  .tema5_container h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    color: rgb(120, 120, 120);
+    font-size: 1.3rem;
+    margin-top: 50px;
+  }
+
+  .billeder_overskrift {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    color: rgb(120, 120, 120);
+    font-size: 1.5rem;
+    margin: 20px;
+    margin-top: 50px;
+  }
+
+  .indhold_container h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    color: rgb(120, 120, 120);
+    font-size: 1.5rem;
+    margin-top: 50px;
+  }
+
+  /* billeder mobil */
+  .billeder_col1,
+  .wireframes_col {
+    max-width: 400px;
+    margin: 20px;
+  }
+  .billeder_col2,
+  .layoutdiagram_col {
+    max-width: 400px;
+    margin: 20px;
+  }
+
+  .billeder_col1 img,
+  .billeder_col2 img,
+  .wireframes_col img,
+  .layoutdiagram_col img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .billede_tekst {
+    grid-column: 2/3;
+    line-height: 2.5rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    color: rgb(130, 130, 130);
+    font-size: 1rem;
+    margin: 20px;
+  }
+  .prototyper_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+  }
+
+  .pic1 {
+    grid-column: 1/2;
+    padding: 20px;
+  }
+  .pic2 {
+    grid-column: 2/3;
+    padding: 20px;
+  }
+  .pic3 {
+    grid-column: 3/4;
+    padding: 20px;
+  }
+
+  .pic1 img,
+  .pic2 img,
+  .pic3 img {
+    width: 100%;
+  }
+}
+
+/*** GENERELT - desktop & mobil ***/
+.highlight {
+  color: rgb(255, 67, 199);
+}
+
+/* tema collonner */
+.tema2_col1 ul,
+.tema3_col1 ul,
+.tema4_col1 ul,
+.tema5_col1 ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.tema2_col1 ul li,
+.tema3_col1 ul li,
+.tema4_col1 ul li,
+.tema5_col1 ul li {
+  list-style-type: none;
+  line-height: 2.5rem;
+  font-family: "Inter", sans-serif;
+  font-weight: lighter;
+  color: rgb(100, 100, 100);
+  font-size: 1.3rem;
+  border-bottom: 0.4px solid rgb(155, 155, 155);
+}
+
+/* indhold collonner */
+
+.indhold_col1 a {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-size: 1.2rem;
+  color: rgb(255, 0, 200);
+  text-decoration: underline;
+  line-height: 3rem;
+}
+.indhold_col1 a:hover {
+  color: rgb(255, 0, 200);
+  font-weight: 500;
+}
